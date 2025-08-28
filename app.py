@@ -9,5 +9,7 @@ def home():
 @app.route('/about')
 def about():
     return 'This is the About page!'
-def bad_function ():return 42
+
+def bad_function():
+    return 42
 
