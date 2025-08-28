@@ -1,5 +1,4 @@
-#trigger new pipeline run
-from flask import Flask
+from flask import Flask  # correct
 
 app = Flask(__name__)
 
@@ -10,4 +9,7 @@ def home():
 @app.route('/about')
 def about():
     return 'This is the About page!'
+
+def bad_function():
+    return 42
 
