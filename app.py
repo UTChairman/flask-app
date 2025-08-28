@@ -1,6 +1,4 @@
-import flaskkkkk  # wrong import to fail CI
-#trigger new pipeline run
-from flask import Flask
+from flask import Flask  # correct
 
 app = Flask(__name__)
 
