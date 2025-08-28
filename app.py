@@ -1,3 +1,4 @@
+import flaskkkkk  # wrong import to fail CI
 #trigger new pipeline run
 from flask import Flask
 
